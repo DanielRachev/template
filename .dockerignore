@@ -1,0 +1,29 @@
+# Ignore Docker and Git files
+.git
+.gitignore
+Dockerfile
+.dockerignore
+docker-compose.yml
+README.md
+
+# Ignore Node modules and frontend build artifacts
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+npm-debug.log*
+
+# Ignore Python virtual environment
+backend/venv/
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+venv/
+.env
+db.sqlite3
+
+# Editor / OS specific
+.vscode/
+.idea/
+.DS_Store
